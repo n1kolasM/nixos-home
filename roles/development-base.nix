@@ -51,6 +51,7 @@
       set noshowmode
 
       set clipboard=unnamedplus
+      command! -nargs=1 -range SuperRetab <line1>,<line2>s/\v%(^ *)@<= {<args>}/\t/g
     '';
   };
   programs.git.enable = true;

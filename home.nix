@@ -8,6 +8,7 @@
     ./users/n1kolasm
 
     ./roles/development-base.nix
+    ./roles/development-c.nix
     ./roles/development-python.nix
     ./roles/development-nix.nix
     ./roles/office.nix

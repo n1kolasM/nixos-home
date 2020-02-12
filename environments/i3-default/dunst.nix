@@ -7,6 +7,9 @@
         padding = 32;
         horizontal_padding = 30;
         line_height = 4;
+        markup = "full";
+        alignment = "left";
+        word_wrap = "true";
       };
       frame = {
         width = 2;

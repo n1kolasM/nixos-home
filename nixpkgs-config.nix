@@ -3,8 +3,8 @@
   allowUnfree = true;
   packageOverrides = pkgs: {
     nur = import (builtins.fetchTarball {
-      url = "https://github.com/nix-community/NUR/archive/951bdeac7dd06de7c412fa29f198ad8bead31891.tar.gz";
-      sha256 = "1marw5ykkfbklyqz1i722p7qbzdrp2dp7n4gkk7xx5va3g53k2yk";
+      url = "https://github.com/nix-community/NUR/archive/f32fcb62133b2b51e981e95102a6eca22b9f2715.tar.gz";
+      sha256 = "1m4zvzahi88w9rk9rfx7rxfz0psm62d3pyrknk6ahsrvccjrs56x";
     }) { inherit pkgs; };
   };
 }
